@@ -1,12 +1,22 @@
-
 body{
   background-color: #95affc;
   background-image:url("cosmos.jpg");
+}
+h2{
+  margin: inherit;
+  padding-left: 20px;
+}
+p{
+  margin: inherit;
 }
 ul.header{
   display: flex;
   padding: 0;
   justify-content: center;
+}
+a.link {
+  text-decoration:overline underline ;
+  color: #4dda30;
 }
 li{
   list-style: none;
